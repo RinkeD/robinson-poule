@@ -1,0 +1,250 @@
+{
+  "players": [
+    {
+      "name": "Menno",
+      "img": "/images/menno.jpg",
+      "camp": "north"
+    },
+    {
+      "name": "Rinke",
+      "img": "/images/rinke.jpg",
+      "camp": "south"
+    },
+    {
+      "name": "Peet",
+      "img": "/images/peet.jpg",
+      "camp": "south"
+    },
+    {
+      "name": "Iris",
+      "img": "/images/iris.jpg",
+      "camp": "north"
+    },
+    {
+      "name": "Gijs",
+      "img": "/images/gijs.png",
+      "camp": "north"
+    },
+    {
+      "name": "Stefan",
+      "img": "/images/stefan.jpg",
+      "camp": "south"
+    }
+  ],
+  "candidates": [
+    {
+      "name": "Akwasi",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1566200325_AKWASI_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Menno",
+      "out": false,
+      "camp": "south",
+      "ten": [
+        "Peet",
+        "Iris"
+      ]
+    },
+    {
+      "name": "Anita",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565101104_ANITA_PORTRAIT800.jpg&w=400&h=400&cropped=1",
+      "owner": "Stefan",
+      "out": false,
+      "camp": "south",
+      "ten": [
+        "Gijs",
+        "Stefan",
+        "Peet",
+        "Iris"
+      ]
+    },
+    {
+      "name": "Berdien",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1566557302_Berdien_mobiel.jpg&w=400&h=400&cropped=1",
+      "owner": "Menno",
+      "out": true,
+      "ten": [
+        "Rinke",
+        "Menno"
+      ]
+    },
+    {
+      "name": "Dionne",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565101981_DIONNE_PORTRAIT800.jpg&w=400&h=400&cropped=1",
+      "owner": "Stefan",
+      "out": false,
+      "camp": "south",
+      "ten": [
+        "Rinke",
+        "Gijs"
+      ]
+    },
+    {
+      "name": "Eva C",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565811413_EVA_C_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Peet",
+      "out": false,
+      "ten": [
+        "Gijs",
+        "Stefan",
+        "Iris",
+        "Menno"
+      ]
+    },
+    {
+      "name": "Eva K",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565860099_EVA_K_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Gijs",
+      "out": false,
+      "camp": "north"
+    },
+    {
+      "name": "Fien",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565857267_RTL_4_-_Expeditie_Robinson_2019__-_Fien_Vermeulen__staand_.jpg&w=400&h=400&cropped=1",
+      "owner": "Peet",
+      "out": false,
+      "camp": "south",
+      "ten": [
+        "Rinke",
+        "Stefan",
+        "Gijs"
+      ]
+    },
+    {
+      "name": "Frank",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565102245_FRANK_PORTRAIT800.jpg&w=400&h=400&cropped=1",
+      "owner": "Rinke",
+      "out": false,
+      "camp": "south",
+      "ten": [
+        "Iris",
+        "Rinke"
+      ]
+    },
+    {
+      "name": "Hugo",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565811637_HUGO_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": [
+        "Stefan",
+        "Peet",
+        "Gijs"
+      ],
+      "camp": "south",
+      "ten": [
+        "Iris"
+      ]
+    },
+    {
+      "name": "Jaap",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565101658_JAAP_800.jpg&w=400&h=400&cropped=1",
+      "owner": "Peet",
+      "out": false,
+      "camp": "south",
+      "ten": [
+        "Rinke",
+        "Menno"
+      ]
+    },
+    {
+      "name": "Kelvin",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565684362_KELVIN_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Gijs",
+      "out": false,
+      "camp": "north",
+      "ten": [
+        "Iris"
+      ]
+    },
+    {
+      "name": "Kim",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1566200469_KIM_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Iris",
+      "out": false,
+      "camp": "north",
+      "ten": [
+        "Stefan",
+        "Peet",
+        "Menno"
+      ]
+    },
+    {
+      "name": "Mariana",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565684607_MARIANA_STAAND.jpg&w=400&h=400&cropped=1",
+      "owner": "Gijs",
+      "out": false,
+      "camp": "north",
+      "ten": [
+        "Stefan",
+        "Peet"
+      ]
+    },
+    {
+      "name": "Rijk",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565856968_RIJK_LANDSCAPE.jpg&w=400&h=400&cropped=1",
+      "owner": "Rinke",
+      "out": false,
+      "ten": [
+        "Rinke",
+        "Gijs"
+      ]
+    },
+    {
+      "name": "Rob",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565684757_ROB_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Iris",
+      "out": false,
+      "ten": [
+        "Stefan",
+        "Menno"
+      ]
+    },
+    {
+      "name": "Roy",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1566557243_Roy_mobiel.jpg&w=400&h=400&cropped=1",
+      "owner": "Menno",
+      "out": false,
+      "camp": "north"
+    },
+    {
+      "name": "Shary-An",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565684167_SHARYAN_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Rinke",
+      "out": false,
+      "camp": "north",
+      "ten": [
+        "Peet"
+      ]
+    },
+    {
+      "name": "Thomas",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1566200895_THOMAS_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": [
+        "Menno",
+        "Rinke",
+        "Iris"
+      ],
+      "camp": "north",
+      "ten": [
+        "Menno"
+      ]
+    },
+    {
+      "name": "Tim",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1566200694_TIM_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Stefan",
+      "out": false,
+      "camp": "north",
+      "ten": [
+        "Peet"
+      ]
+    },
+    {
+      "name": "Yvette",
+      "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565811914_YVETTE_PORTRAIT.jpg&w=400&h=400&cropped=1",
+      "owner": "Iris",
+      "out": false,
+      "camp": "south",
+      "ten": [
+        "Gijs"
+      ]
+    }
+  ]
+}

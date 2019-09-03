@@ -1,0 +1,11 @@
+{
+  "name": "robinson-poule",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Mennauu/robinson-poule.git",
+  "author": "Mennauu <mennodevries1@msn.com>",
+  "license": "MIT",
+  "dependencies": {
+    "blendid": "^4.5.0"
+  }
+}

@@ -1,0 +1,128 @@
+{#
+  Nunjucks Templating!
+  Homepage: https://mozilla.github.io/nunjucks/
+  Docs: https://mozilla.github.io/nunjucks/api.html
+#}
+
+{% extends 'layouts/application.html' %}
+
+{% block content %}
+
+<div class="flex-column">
+
+  <div class="poule">
+    <h1>Poule 1</h1>
+    <h4>Totaal: <strong>€300</strong></h4>
+    <div class="flex-wrap">
+      {% for player in players %}
+      <div class="container">
+        <div class="flex player-container">
+          <img class="avatar" src="{{ player.img }}">
+          <p class="player">{{ player.name }}</p>
+        </div>
+        {% for candidate in candidates %}
+        {% if candidate.owner == player.name %}
+        <div class="flex">
+          {% if candidate.out == true %}
+          <img class="absolute" src="/images/cross.png">
+          {% endif %}
+          <img class="candidate{% if candidate.out == true %} faded{% endif %}" src="{{ candidate.img }}">
+          <p>{{ candidate.name }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+
+  <div class="poule">
+    <h1>Poule 2</h1>
+    <h4>Totaal: <strong>€0</strong></h4>
+    <br>
+    <h2>Kamp Noord</h2>
+    <div class="flex-wrap">
+      <div class="container">
+        <div class="players-container">
+          {% for player in players %}
+          {% if player.camp == "north" %}
+          <div class="flex">
+            <img class="avatar" src="{{ player.img }}">
+            <p class="player">{{ player.name }}</p>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% for candidate in candidates %}
+        {% if candidate.camp == "north" %}
+        <div class="flex">
+          {% if candidate.out == true %}
+          <img class="absolute" src="/images/cross.png">
+          {% endif %}
+          <img class="candidate{% if candidate.out == true %} faded{% endif %}" src="{{ candidate.img }}">
+          <p>{{ candidate.name }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <h2>Kamp Zuid</h2>
+    <div class="flex-wrap">
+      <div class="container">
+        <div class="players-container">
+          {% for player in players %}
+          {% if player.camp == "south" %}
+          <div class="flex">
+            <img class="avatar" src="{{ player.img }}">
+            <p class="player">{{ player.name }}</p>
+          </div>
+          {% endif %}
+          {% endfor %}
+        </div>
+        {% for candidate in candidates %}
+        {% if candidate.camp == "south" %}
+        <div class="flex">
+          {% if candidate.out == true %}
+          <img class="absolute" src="/images/cross.png">
+          {% endif %}
+          <img class="candidate{% if candidate.out == true %} faded{% endif %}" src="{{ candidate.img }}">
+          <p>{{ candidate.name }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+
+  <div class="poule">
+    <h1>Poule 3</h1>
+    <h4>Totaal: <strong>€0</strong></h4>
+
+    <div class="flex-wrap">
+      {% for player in players %}
+      <div class="container">
+        <div class="flex player-container">
+          <img class="avatar" src="{{ player.img }}">
+          <p class="player">{{ player.name }}</p>
+        </div>
+        {% for candidate in candidates %}
+        {% for cand in candidate.ten %}
+        {% if cand == player.name %}
+        <div class="flex">
+          {% if candidate.out == true %}
+          <img class="absolute" src="/images/cross.png">
+          {% endif %}
+          <img class="candidate{% if candidate.out == true %} faded{% endif %}" src="{{ candidate.img }}">
+          <p>{{ candidate.name }}</p>
+        </div>
+        {% endif %}
+        {% endfor %}
+        {% endfor %}
+      </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% endblock %}
