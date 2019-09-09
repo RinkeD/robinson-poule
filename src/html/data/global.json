@@ -47,7 +47,7 @@
       "name": "Anita",
       "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565101104_ANITA_PORTRAIT800.jpg&w=400&h=400&cropped=1",
       "owner": "Stefan",
-      "out": false,
+      "out": true,
       "camp": "south",
       "ten": [
         "Gijs",
@@ -60,7 +60,7 @@
       "name": "Berdien",
       "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1566557302_Berdien_mobiel.jpg&w=400&h=400&cropped=1",
       "owner": "Menno",
-      "out": true,
+      "out": false,
       "ten": [
         "Rinke",
         "Menno"
