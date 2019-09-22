@@ -136,7 +136,7 @@
       "name": "Jaap",
       "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565101658_JAAP_800.jpg&w=400&h=400&cropped=1",
       "owner": "Peet",
-      "out": false,
+      "out": true,
       "camp": "south",
       "ten": [
         "Rinke",
