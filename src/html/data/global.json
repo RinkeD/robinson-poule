@@ -60,7 +60,7 @@
       "name": "Berdien",
       "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1566557302_Berdien_mobiel.jpg&w=400&h=400&cropped=1",
       "owner": "Menno",
-      "out": false,
+      "out": true,
       "ten": [
         "Rinke",
         "Menno"
@@ -70,7 +70,7 @@
       "name": "Dionne",
       "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565101981_DIONNE_PORTRAIT800.jpg&w=400&h=400&cropped=1",
       "owner": "Stefan",
-      "out": false,
+      "out": true,
       "camp": "south",
       "ten": [
         "Rinke",
@@ -136,7 +136,7 @@
       "name": "Jaap",
       "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565101658_JAAP_800.jpg&w=400&h=400&cropped=1",
       "owner": "Peet",
-      "out": false,
+      "out": true,
       "camp": "south",
       "ten": [
         "Rinke",
