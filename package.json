@@ -8,5 +8,7 @@
   "dependencies": {
     "blendid": "^4.5.0"
   },
-	"heroku-postbuild": "yarn run blendid -- build"
+  "scripts": {
+    "build": "yarn run blendid -- build"
+  }
 }
