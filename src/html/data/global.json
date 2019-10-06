@@ -190,7 +190,7 @@
       "name": "Rob",
       "img": "https://rtl.lwcdn.nl/imageScaled/?site=robinson&file=1565684757_ROB_PORTRAIT.jpg&w=400&h=400&cropped=1",
       "owner": "Iris",
-      "out": false,
+      "out": true,
       "ten": [
         "Stefan",
         "Menno"
